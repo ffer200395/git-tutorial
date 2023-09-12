@@ -8,7 +8,7 @@
 git init
 ```
 Si todo ha funcionado correctamente nos aparecerá un mensaje parecido a este:
-![Imagen git init](pics/git init.png)
+![Imagen git init](pics/git_init.png)
 
 ## Conexión a github (Repositorio remoto)
 Queremos que nuestro amigo pueda ver este archivo que estamos creando y queremos practicar con él.
