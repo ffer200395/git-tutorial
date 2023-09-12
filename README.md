@@ -27,5 +27,24 @@ Posteriormente procedemos ha hacer el registro de ese "guardado de cambios" con 
 git add .
 git commit -m "Guardando cambios iniciales del README"
 ```
+Si todo ha sido correcto deberíamos de ver en pantalla un mensaje que informa acerca de los cambios:
+![Imagen primer commit](pics/commit1.png)
+
+## Subir cambios (push)
+Mediante el comando git push debemos indicar el nombre del repositorio así como la rama local desde la cual queremos hacer el push.
+Recordemos que **origin** es el alias que le pusimos al repositorio remoto cuando lo enlazamos con el local, **master** es el alias de la rama que se crea automáticamente.
+```
+git push -u origin master
+```
+Cuando utilizas -u en este comando, le estás indicando a Git que, después de realizar con éxito 
+el git push, quieres que establezca la rama local master para hacer un seguimiento de la rama
+remota master en el control remoto origin. Esto significa que en futuros git push y git pull, 
+Git sabrá automáticamente qué rama local está relacionada con qué rama remota y realizará las 
+operaciones de manera adecuada sin que tengas que especificar explícitamente las ramas cada vez.
+
+Si se ha realizado correctamente veríamos algo así:
+![Imagen primer puch](pics/push.png)
+
+Ahora sí que podremos ver el proyecto en nuestro repositorio en github.
 
 
