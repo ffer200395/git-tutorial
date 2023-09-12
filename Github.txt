@@ -1,0 +1,29 @@
+-Crear proyecto en pycharm
+-En el terminal, sobre el directiorio del proyecto hacer (para iniciar el control de versones):
+	git init
+-Commit:
+	git add . # Agrega los archivos modificados o añadidos
+	git status # para ver qué archivos he cambiado.
+	git diff [archivo] # para ver exactamente lo que modifiqué.
+	git commit -a -m [mensaje] # para hacer commit.
+
+-Conocer un commit a través de (SHA1):
+	git log
+
+-Crear una nueva rama desde un commit en concreto:
+	git branch [new-head-name] df73f34fac344778e1f5a836fb88a897e0b8d491
+
+-Cambiar de rama:
+	git checkout [head-name]
+
+-Una vez finalizada una fusión llevarla a la rama principal:
+	git merge [head]
+	git pull . [head]
+
+-Resolver conflictos:
+
+-Subir cambios de una rama:
+	git push origin [nueva-rama]
+
+-Descargar cambios:
+	git pull origin desarrollo
