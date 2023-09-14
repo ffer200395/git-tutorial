@@ -47,4 +47,4 @@ Si se ha realizado correctamente veríamos algo así:
 
 Ahora sí que podremos ver el proyecto en nuestro repositorio en github.
 
-
+Hay que tener en cuenta que si después de los cambios realizados en la rama1 (tras hacer el commit y push) cambiamos a la rama master, el archivo que estemos tocando se restaurará a la última versión registrada para la rama master. Ahora hemos aplicado cambios al mismo archivo desde dos ramas distintas, ahora toca unir los cambios. Para ello debemos asegurarnos que los cambios aplicados en ambas ramas los hemos guardado.
