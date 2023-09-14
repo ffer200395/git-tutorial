@@ -47,4 +47,23 @@ Si se ha realizado correctamente veríamos algo así:
 
 Ahora sí que podremos ver el proyecto en nuestro repositorio en github.
 
+## Crear una nueva rama (branch)
+Imaginemos que vamos a trabajar en otra funcionalidad del proyecto y queremos desarrollarla aparte de modo que una vez desarrollada podamos integrarla con la rama principal del proyecto.
 
+Para ello ejecutaremos el comando git branch seguido del nombre de la rama que vamos a crear:
+```
+git branch rama1
+```
+Posteriormente, para colocarnos en la rama que acabamos de crear debemos ejecutar el comando git checkout seguido del nombre de la rama:
+```
+git checkout rama1
+```
+Al cambiarnos de rama veríamos este mensaje:
+![Imagen primer checkout](pics/checkout.png)
+
+Tras realizar los cambios convenientes desde la rama 1 podemos hacer un commit y push para que quede registro del trabajo realizado en esa rama.
+
+-Hacer cambios en esa rama
+-Cambiar a la rama master 
+-Hacer cambios en la rama master
+-Unir lo realizado en la rama nueva con la rama master
