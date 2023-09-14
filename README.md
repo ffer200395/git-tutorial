@@ -72,12 +72,25 @@ Tras hacer el commit en la nueva rama deberíamos ver un mensaje parecido al sig
 ![Imagen segundo commit](pics/commit2.png)
 
 Si quisieramos ver los cambios realizados y subidos desde esta rama en el repositorio remoto de github debemos indicar desde qué rama queremos ver el proyecto:
+
 ![Imagen rama](pics/branch.png)
 
 Todos los cambios realizados hasta ahora en la rama1 serán invisibles desde la rama master a menos que hagamos una fusión de ambas versiones.
 
+Hay que tener en cuenta que si después de los cambios realizados en la rama1 (tras hacer el commit y push) cambiamos a la rama master, el archivo que estemos tocando se restaurará a la última versión registrada para la rama master.
+
 ## Mergear cambios realizados en distintas ramas (merge)
 
+Si tras haber realizado cambios sobre el mismo archivo tanto desde la rama master como la rama1 queremos hacer un merge obtendremos un mensaje de conflicto parecido al siguiente:
+
+![Imagen conflicto](pics/conflict.png)
+
+En el caso de presentar conflictos debemos solventarlo manualmente, posteriormente hacer git add, commit y por último merge. Tras realizar el merge veremos lo siguiente:
+
+```
+git merge rama1
+```
+![Imagen merge](pics/merge.png)
 
 ## Pull request
 
