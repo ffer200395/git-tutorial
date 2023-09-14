@@ -92,3 +92,5 @@ git merge rama1
 ```
 ![Imagen merge](pics/merge.png)
 
+Si volvemos a la rama1 veremos que todo sige intacto, ya que cuando hacemos el merge la fusión se aplica sobre la rama en la que estamos colocados.
+
