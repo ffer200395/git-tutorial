@@ -108,7 +108,7 @@ Permite a los colaboradores de un proyecto proponer cambios en un repositorio y 
 
 ## Pull
 
-Tras mergear despues de aceptar la pull request procedemos a actualizar el repositorio local cn la última versión del proyecto:
+Tras hacer el merge despues de aceptar la pull request procedemos a actualizar el repositorio local cn la última versión del proyecto:
 
 ```
 git pull origin master
