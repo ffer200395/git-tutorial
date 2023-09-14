@@ -61,7 +61,14 @@ git checkout rama1
 Al cambiarnos de rama veríamos este mensaje:
 ![Imagen primer checkout](pics/checkout.png)
 
-Tras realizar los cambios convenientes desde la rama 1 podemos hacer un commit y push para que quede registro del trabajo realizado en esa rama.
+Tras realizar los cambios convenientes desde la rama 1 podemos hacer un commit y push para que quede registro del trabajo realizado en esa rama, por lo que una vez terminado el trabajo dentro de la misma rama 1 ejecutamos:
+```
+git add .
+git commit -m "Primeros cambios desde la rama 1"
+git push origin rama1
+```
+Tras hacer el commit en la nueva rama deberíamos ver un mensaje parecido al siguiente:
+![Imagen segundo commit](pics/commit2.png)
 
 -Hacer cambios en esa rama
 -Cambiar a la rama master 
