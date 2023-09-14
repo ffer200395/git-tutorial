@@ -85,5 +85,10 @@ Si tras haber realizado cambios sobre el mismo archivo tanto desde la rama maste
 
 ![Imagen conflicto](pics/conflict.png)
 
-En el caso de presentar conflictos debemos solventarlo manualmente, posteriormente hacer git add, commit y por último merge.
+En el caso de presentar conflictos debemos solventarlo manualmente, posteriormente hacer git add, commit y por último merge. Tras realizar el merge veremos lo siguiente:
+
+```
+git merge rama1
+```
+![Imagen merge](pics/merge.png)
 
