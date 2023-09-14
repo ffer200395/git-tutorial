@@ -47,4 +47,43 @@ Si se ha realizado correctamente veríamos algo así:
 
 Ahora sí que podremos ver el proyecto en nuestro repositorio en github.
 
-Hay que tener en cuenta que si después de los cambios realizados en la rama1 (tras hacer el commit y push) cambiamos a la rama master, el archivo que estemos tocando se restaurará a la última versión registrada para la rama master. Ahora hemos aplicado cambios al mismo archivo desde dos ramas distintas, ahora toca unir los cambios. Para ello debemos asegurarnos que los cambios aplicados en ambas ramas los hemos guardado.
+## Crear una nueva rama (branch)
+Imaginemos que vamos a trabajar en otra funcionalidad del proyecto y queremos desarrollarla aparte de modo que una vez desarrollada podamos integrarla con la rama principal del proyecto.
+
+Para ello ejecutaremos el comando git branch seguido del nombre de la rama que vamos a crear:
+```
+git branch rama1
+```
+Posteriormente, para colocarnos en la rama que acabamos de crear debemos ejecutar el comando git checkout seguido del nombre de la rama:
+```
+git checkout rama1
+```
+Al cambiarnos de rama veríamos este mensaje:
+
+![Imagen primer checkout](pics/checkout.png)
+
+Tras realizar los cambios convenientes desde la rama 1 podemos hacer un commit y push para que quede registro del trabajo realizado en esa rama, por lo que una vez terminado el trabajo dentro de la misma rama 1 ejecutamos:
+```
+git add .
+git commit -m "Primeros cambios desde la rama 1"
+git push origin rama1
+```
+Tras hacer el commit en la nueva rama deberíamos ver un mensaje parecido al siguiente:
+![Imagen segundo commit](pics/commit2.png)
+
+Si quisieramos ver los cambios realizados y subidos desde esta rama en el repositorio remoto de github debemos indicar desde qué rama queremos ver el proyecto:
+
+![Imagen rama](pics/branch.png)
+
+Todos los cambios realizados hasta ahora en la rama1 serán invisibles desde la rama master a menos que hagamos una fusión de ambas versiones.
+
+Hay que tener en cuenta que si después de los cambios realizados en la rama1 (tras hacer el commit y push) cambiamos a la rama master, el archivo que estemos tocando se restaurará a la última versión registrada para la rama master.
+
+## Mergear cambios realizados en distintas ramas (merge)
+
+Si tras haber realizado cambios sobre el mismo archivo tanto desde la rama master como la rama1 queremos hacer un merge obtendremos un mensaje de conflicto parecido al siguiente:
+
+![Imagen conflicto](pics/conflict.png)
+
+En el caso de presentar conflictos debemos solventarlo manualmente, posteriormente hacer git add, commit y por último merge.
+
