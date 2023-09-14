@@ -115,3 +115,7 @@ git pull origin master
 ```
 
 ![Imagen pull](pics/pull.png)
+
+## Enlaces
+https://desarrolloweb.com/articulos/trabajar-ramas-git.html
+https://4geeksacademy.github.io/git-interactive-tutorial/
