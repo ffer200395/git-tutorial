@@ -92,3 +92,14 @@ git merge rama1
 ```
 ![Imagen merge](pics/merge.png)
 
+## Pull request
+
+Permite a los colaboradores de un proyecto proponer cambios en un repositorio y solicitar que el propietario del repositorio original los integre. Proceso de una pull request:
+
+- Crear rama para la nueva funcionalidad.
+- Realizar cambios.
+- Hacer commits.
+- Hacer push de los cambios al repositorio remoto desde la rama.
+- Crear una pull request: En GitHub, navegas a tu repositorio y seleccionas la opción para crear una pull request. Debes seleccionar la rama de la que deseas fusionar tus cambios y la rama de destino en el repositorio original (por ejemplo, la rama master).
+- Revisión y discusión.
+- Integración de la pull request: El propietario del repositorio original puede fusionar la pull request. Esto significa que tus cambios se incorporarán a la rama de destino del repositorio original.
