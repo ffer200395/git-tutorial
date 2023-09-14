@@ -105,3 +105,13 @@ Permite a los colaboradores de un proyecto proponer cambios en un repositorio y 
 - Crear una pull request: En GitHub, navegas a tu repositorio y seleccionas la opción para crear una pull request. Debes seleccionar la rama de la que deseas fusionar tus cambios y la rama de destino en el repositorio original (por ejemplo, la rama master).
 - Revisión y discusión.
 - Integración de la pull request: El propietario del repositorio original puede fusionar la pull request. Esto significa que tus cambios se incorporarán a la rama de destino del repositorio original.
+
+## Pull
+
+Tras mergear despues de aceptar la pull request procedemos a actualizar el repositorio local cn la última versión del proyecto:
+
+```
+git pull origin master
+```
+
+![Imagen pull](pics/pull.png)
