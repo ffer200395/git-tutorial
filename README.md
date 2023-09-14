@@ -59,6 +59,7 @@ Posteriormente, para colocarnos en la rama que acabamos de crear debemos ejecuta
 git checkout rama1
 ```
 Al cambiarnos de rama veríamos este mensaje:
+
 ![Imagen primer checkout](pics/checkout.png)
 
 Tras realizar los cambios convenientes desde la rama 1 podemos hacer un commit y push para que quede registro del trabajo realizado en esa rama, por lo que una vez terminado el trabajo dentro de la misma rama 1 ejecutamos:
@@ -70,7 +71,14 @@ git push origin rama1
 Tras hacer el commit en la nueva rama deberíamos ver un mensaje parecido al siguiente:
 ![Imagen segundo commit](pics/commit2.png)
 
--Hacer cambios en esa rama
+Si quisieramos ver los cambios realizados y subidos desde esta rama en el repositorio remoto de github debemos indicar desde qué rama queremos ver el proyecto:
+![Imagen rama](pics/branch.png)
+
+Todos los cambios realizados hasta ahora en la rama1 serán invisibles desde la rama master a menos que hagamos una fusión de ambas versiones.
+
+## Mergear cambios realizados en distintas ramas (merge)
+
+
 -Cambiar a la rama master 
 -Hacer cambios en la rama master
 -Unir lo realizado en la rama nueva con la rama master
