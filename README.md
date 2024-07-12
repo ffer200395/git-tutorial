@@ -132,7 +132,7 @@ git checkout master
 Si quiero recuperar los cambios guardados temporalmente usar :
 
 ```
-git stash
+git stash pop
 git checkout master
 ```
 
