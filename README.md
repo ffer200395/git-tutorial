@@ -104,11 +104,11 @@ git checkout -b rama_new
 
 Realizamos los cambios y confirmamos. Después hacemos un push desde la rama nueva. Luego aparecerá esto:
 
-![Imagen pull request](pics/pull_request.png)
+![Imagen pull request](pics/pull_request.JPG)
 
 Creamos el pull request:
 
-![Imagen pull request](pics/pull_request_1.png)
+![Imagen pull request](pics/pull_request_1.JPG)
 
 Permite a los colaboradores de un proyecto proponer cambios en un repositorio y solicitar que el propietario del repositorio original los integre. Proceso de una pull request:
 
@@ -120,7 +120,7 @@ Permite a los colaboradores de un proyecto proponer cambios en un repositorio y 
 - Revisión y discusión.
 - Integración de la pull request: El propietario del repositorio original puede fusionar la pull request. Esto significa que tus cambios se incorporarán a la rama de destino del repositorio original:
 
-![Imagen pull request](pics/pull_request_2.png)
+![Imagen pull request](pics/pull_request_2.JPG)
 
 Si ahora quier moverme a la rama máster me saldrá un error de que perderés los cambios, por lo tanto ejecuto:
 
