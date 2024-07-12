@@ -96,13 +96,15 @@ Si volvemos a la rama1 veremos que todo sige intacto, ya que cuando hacemos el m
 
 ## Pull request
 
-Tras clonar un repositorio, creamos una rama nueva
+Tras clonar un repositorio, creamos una rama nueva. 
 
 ```
 git checkout -b rama_new
 ```
 
-Realizamos los cambios y confirmamos.
+Realizamos los cambios y confirmamos. Después hacemos un push desde la rama nueva. Luego aparecerá esto:
+
+![Imagen merge](pics/pull_request.png)
 
 
 Permite a los colaboradores de un proyecto proponer cambios en un repositorio y solicitar que el propietario del repositorio original los integre. Proceso de una pull request:
