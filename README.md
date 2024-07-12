@@ -96,6 +96,15 @@ Si volvemos a la rama1 veremos que todo sige intacto, ya que cuando hacemos el m
 
 ## Pull request
 
+Tras clonar un repositorio, creamos una rama nueva
+
+```
+git checkout -b rama_new
+```
+
+Realizamos los cambios y confirmamos.
+
+
 Permite a los colaboradores de un proyecto proponer cambios en un repositorio y solicitar que el propietario del repositorio original los integre. Proceso de una pull request:
 
 - Crear rama para la nueva funcionalidad.
