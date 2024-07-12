@@ -106,7 +106,7 @@ Realizamos los cambios y confirmamos. Después hacemos un push desde la rama nue
 
 ![Imagen merge](pics/pull_request.png)
 
-holaaa
+holaaaaaaaaaaaaaaa
 
 
 Permite a los colaboradores de un proyecto proponer cambios en un repositorio y solicitar que el propietario del repositorio original los integre. Proceso de una pull request:
