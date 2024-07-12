@@ -110,9 +110,8 @@ Creamos el pull request:
 
 ![Imagen pull request](pics/pull_request_1.png)
 
-
 Permite a los colaboradores de un proyecto proponer cambios en un repositorio y solicitar que el propietario del repositorio original los integre. Proceso de una pull request:
-- Clonar el proyecto.
+
 - Crear rama para la nueva funcionalidad.
 - Realizar cambios.
 - Hacer commits.
@@ -123,9 +122,24 @@ Permite a los colaboradores de un proyecto proponer cambios en un repositorio y 
 
 ![Imagen pull request](pics/pull_request_2.png)
 
+Si ahora quier moverme a la rama máster me saldrá un error de que perderés los cambios, por lo tanto ejecuto:
+
+```
+git stash
+git checkout master
+```
+
+Si quiero recuperar los cambios guardados temporalmente usar :
+
+```
+git stash
+git checkout master
+```
+
+
 ## Pull
 
-Tras hacer el merge despues de aceptar la pull request procedemos a actualizar el repositorio local con la última versión del proyecto:
+Tras hacer el merge despues de aceptar la pull request procedemos a actualizar el repositorio local cn la última versión del proyecto:
 
 ```
 git pull origin master
